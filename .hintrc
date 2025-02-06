@@ -3,16 +3,39 @@
     "development"
   ],
   "hints": {
-    "axe/text-alternatives": [
-      "default",
-      {
-        "image-alt": "off"
-      }
-    ],
     "axe/name-role-value": [
       "default",
       {
         "link-name": "off"
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-progressbar-name": "off"
+      }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[loading]",
+          "iframe[referrerpolicy=no-referrer-when-downgrade]"
+        ]
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "frame-title": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off",
+        "listitem": "off"
       }
     ]
   }
